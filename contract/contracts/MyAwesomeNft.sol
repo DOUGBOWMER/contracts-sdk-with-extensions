@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@thirdweb-dev/contracts/base/ERC721Base.sol";
 import "@thirdweb-dev/contracts/extension/PermissionsEnumerable.sol";
 
-contract MyAwesomeNft is ERC721Base, PermissionsEnumerable {
+contract NFTBiz is ERC721Base, PermissionsEnumerable {
       constructor(
         string memory _name,
         string memory _symbol,

@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/core": "^7.0.0",
     "@thirdweb-dev/react": "^3",
     "@thirdweb-dev/sdk": "^3",
     "ethers": "^5.6.8",
     "next": "^12.1.6",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react": "link:thirdweb\\react",
+    "react-dom": "^18.1.0",
+    "sdk": "link:thirdweb\\sdk",
+    "storage": "link:thirdweb\\storage",
+    "wagmi-core": "^0.1.22"
   },
   "devDependencies": {
     "eslint": "8.11.0",
